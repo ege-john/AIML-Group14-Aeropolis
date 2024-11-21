@@ -1,2 +1,0 @@
-print('Another file')
-merhaba
