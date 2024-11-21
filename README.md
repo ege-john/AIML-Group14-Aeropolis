@@ -1,46 +1,25 @@
 # LUISS MaCS AI&ML Project Group 14 - Aeropolis
 
+# Drone Cargo Capacity Prediction
 
-• Title and Team members
+## Problem Definition
+This project aims to predict the cargo capacity of autonomous drones in the city of Aeropolis using various environmental and operational factors.
 
-• [Section 1] Introduction – Briefly describe your project
+## Dataset
+The dataset contains several features like weather conditions, terrain, and flight duration, which influence the drone's cargo capacity.
 
-• [Section 2] Methods – Describe your proposed ideas (e.g., features, algorithm(s),
-training overview, design choices, etc.) and your environment so that:
+## Models
+We used the following models for prediction:
+1. Linear Regression
+2. Random Forest Regressor
+3. Support Vector Regressor (SVR)
 
-• A reader can understand why you made your design decisions and the
-reasons behind any other choice related to the project
+## Results
+The Random Forest model performed the best with the lowest RMSE and highest R² after hyperparameter tuning. Below are the final metrics for all models.
 
-• A reader should be able to recreate your environment (e.g., conda list,
-conda envexport, etc.)
+- **Linear Regression**: RMSE = X, R² = Y
+- **Random Forest**: RMSE = A, R² = B
+- **SVR**: RMSE = P, R² = Q
 
-• It may help to include a figure illustrating your ideas, e.g., a flowchart
-illustrating the steps in your machine learning system(s)
-
-• [Section 3] Experimental Design – Describe any experiments you conducted to
-demonstrate/validate the target contribution(s) of your project; indicate the
-following for each experiment:
-
-• The main purpose: 1-2 sentence high-level explanation
-
-• Baseline(s): describe the method(s) that you used to compare your work
-to
-
-• Evaluation Metrics(s): which ones did you use and why?
-
-• [Section 4] Results – Describe the following:
-
-• Main finding(s): report your final results and what you might conclude
-from your work
-
-• Include at least one placeholder figure and/or table for communicating
-your findings
-
-• All the figures containing results should be generated from the code.
-
-• [Section 5] Conclusions – List some concluding remarks. In particular:
-
-• Summarize in one paragraph the take-away point from your work.
-
-• Include one paragraph to explain what questions may not be fully
-answered by your wor
+## Future Work
+We could improve performance by adding feature engineering or trying advanced models like Gradient Boosting or XGBoost.
